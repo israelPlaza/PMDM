@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:text="Click aquí"
         tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="151dp" />
+        tools:layout_editor_absoluteY="151dp"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

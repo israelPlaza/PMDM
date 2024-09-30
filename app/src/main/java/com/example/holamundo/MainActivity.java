@@ -1,6 +1,7 @@
 package com.example.holamundo;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -16,10 +17,19 @@ public class MainActivity extends AppCompatActivity {
  Button botonClick = findViewById(R.id.botonClick);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-            contadorDeClics= findViewById(R.id.contadorDeClics);
+        contadorDeClics= findViewById(R.id.contadorDeClics);
+        botonClick.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // ++ contador
+                contador++;
+                //mostrar contador
+                contadorDeClics.setText("Has clicado " + contador + " veces.");
+            }
+        });
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
