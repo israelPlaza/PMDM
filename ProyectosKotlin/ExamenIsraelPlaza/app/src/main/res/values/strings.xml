@@ -1,0 +1,15 @@
+<resources>
+        <string name="app_name">ExamenIsraelPlaza</string>
+        <string name="hint_name">Nombre</string>
+        <string name="hobbies_label">Hobbies:</string>
+        <string name="checkbox_sports">Deportes</string>
+        <string name="checkbox_reading">Lectura</string>
+        <string name="checkbox_movies">Cine</string>
+        <string name="checkbox_others">Otros</string>
+        <string name="hint_others">Especifica tu afición</string>
+        <string name="button_submit">Enviar</string>
+        <string name="button_clear">Limpiar</string>
+        <string name="result_no_hobbies">Eres %1$s y has especificado 0 aficiones.</string>
+        <string name="result_with_hobbies">Eres %1$s y has especificado %2$d aficiones: %3$s.</string>
+        <string name="error_name_required">El nombre es obligatorio.</string>
+</resources>
