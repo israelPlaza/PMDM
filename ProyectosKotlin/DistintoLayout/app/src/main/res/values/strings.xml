@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Botones</string>
+    <string name="nombre">Nonbre:</string>
+    <string name="edad">Edad::</string>
+</resources>
